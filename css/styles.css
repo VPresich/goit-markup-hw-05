@@ -1,15 +1,15 @@
-:root{  
+:root {
   /* Colors */
-  --slate: #434455;     /*body text */
-  --iris: #4D5AE5;      /* focused, active states, links */
-  --ocean: #404BBF;     /* CTAs */
-  --navyblue: #2E2F42;   /* shadows, headings*/
-  --lightslate: #8E8F99; /* helper text, deemphasized text */
-  --white: #ffffff;      /* header, background, team card */
-  --cloud: #f4f4fd;      /* light mode backgraund, light mode dialogs */
-  --cornflower: #e7e9fc;  /* hairlines, accent collor */
-  --green: #31d0aa;       /* valid fields, success messages*/
-  --dairy: #fcfcfc;       /* modal background */
+  --slate: #434455; /*body text */
+  --iris: #4d5ae5; /* focused, active states, links */
+  --ocean: #404bbf; /* CTAs */
+  --navyblue: #2e2f42; /* shadows, headings*/
+  --lightslate: #8e8f99; /* helper text, deemphasized text */
+  --white: #ffffff; /* header, background, team card */
+  --cloud: #f4f4fd; /* light mode backgraund, light mode dialogs */
+  --cornflower: #e7e9fc; /* hairlines, accent collor */
+  --green: #31d0aa; /* valid fields, success messages*/
+  --dairy: #fcfcfc; /* modal background */
 }
 
 body {
@@ -181,7 +181,7 @@ img {
 
 .contact-link {
   font-size: 16px;
-  color: var(--slate); 
+  color: var(--slate);
   line-height: 1.5;
   letter-spacing: 0.02em;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -222,7 +222,7 @@ img {
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 0.02em;
-  color:  var(--white);
+  color: var(--white);
   text-align: center;
   max-width: 496px;
 }
@@ -903,10 +903,10 @@ img {
   align-items: center;
   flex-shrink: 0;
   border-radius: 4px;
-  background-color:  var(--white);
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  border: 1px solid var(--cornflower);
+  background-color: var(--white);
+  border: 1px solid rgba(46, 47, 66, 0.4);
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   margin-right: 10px;
   margin-left: -2px;
 }
@@ -932,5 +932,5 @@ img {
   background-color: var(--ocean);
 }
 .checkbox-real:checked + .checkbox-icon {
-  fill:  var(--white);
+  fill: var(--white);
 }
