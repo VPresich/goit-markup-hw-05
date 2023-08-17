@@ -769,7 +769,7 @@ img {
   color: #8e8f99; /*var(--lightslate, #8E8F99);*/
   font-size: 12px;
   line-height: 1.17;
-  letter-spacing: 0.48px;
+  letter-spacing: 0.03em;
   width: 100%;
   margin-bottom: 4px;
 }
@@ -798,7 +798,7 @@ img {
   color: #4d5ae5; /* var(--iris, #4D5AE5); */
   font-size: 12px;
   line-height: 1.17;
-  letter-spacing: 0.48px;
+  letter-spacing: 0.03em;
   text-decoration-line: underline;
   transition: color 150ms ease-in-out;
   margin-left: 4px;
@@ -861,7 +861,7 @@ img {
   color: #8e8f99; /*var(--lightslate, #8E8F99);*/
   font-size: 12px;
   line-height: 1.17;
-  letter-spacing: 0.48px;
+  letter-spacing: 0.03em;
 }
 
 /* Custom checkbox */
@@ -877,7 +877,7 @@ img {
   color: #8e8f99; /*var(--lightslate, #8E8F99);*/
   font-size: 12px;
   line-height: 1.17;
-  letter-spacing: 0.48px;
+  letter-spacing: 0.03em;
   margin-bottom: 16px;
 }
 
