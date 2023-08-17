@@ -50,6 +50,10 @@ img {
 
 /* Header */
 .header-page {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
   background-color: #ffffff;
   margin: 0;
   border-bottom: 1px solid var(--cornflower, #e7e9fc);
