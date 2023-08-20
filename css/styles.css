@@ -598,8 +598,6 @@ img {
   justify-content: flex-start;
   align-items: center;
   padding: 8px 24px;
-  justify-content: center;
-  align-items: center;
   gap: 16px;
   border: none;
   border-radius: 4px;
@@ -836,7 +834,7 @@ img {
   outline: none;
   border: none;
   height: 32px;
-  width: 320px;
+  width: calc(100% - 32px);
   font-size: 16px;
 }
 
@@ -922,6 +920,7 @@ img {
 .checkbox-real {
   width: 0;
   padding-left: 2px;
+  outline: none;
 }
 
 .checkbox-real:focus + .checkbox-custom {
