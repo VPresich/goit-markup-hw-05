@@ -884,7 +884,7 @@ img {
 .checkbox-label {
   display: flex;
   flex-direction: row;
-  justify-items: flex-start;
+  justify-content: flex-start;
   align-items: center;
   color: var(--lightslate);
   font-size: 12px;
@@ -897,7 +897,7 @@ img {
   width: 16px;
   height: 16px;
   display: flex;
-  justify-items: center;
+  justify-content: center;
   align-items: center;
   flex-shrink: 0;
   border-radius: 4px;
