@@ -232,6 +232,7 @@ img {
   cursor: pointer;
   background-color: var(--iris);
   color: var(--white);
+  font-family: inherit;
   font-size: 16px;
   font-weight: 500;
   line-height: 150%;
@@ -579,20 +580,13 @@ img {
   fill: var(--white);
 }
 
-/* Subscribe form  */
-.subscribe-form {
-  display: flex;
-  column-gap: 24px;
-  align-items: flex-end;
-}
-
-.subscribe-input {
+/* Subscribe */
+.subscribe {
   display: flex;
   flex-direction: column;
-  column-gap: 14px;
 }
 
-.subscribe-input-label {
+.subscribe-title {
   color: var(--white);
   font-size: 16px;
   font-weight: 500;
@@ -601,48 +595,48 @@ img {
   margin-bottom: 16px;
 }
 
+/* subscribe-form  */
+
+.subscribe-form {
+  display: flex;
+  column-gap: 24px;
+}
+
 .subscribe-input-email {
   color: var(--white);
-  background-color: var(--navyblue);
+  background-color: transparent;
   width: 264px;
   height: 40px;
-  font-family: Roboto;
   font-size: 12px;
-  line-height: 2;
+  line-height: 1.5;
   letter-spacing: 0.04em;
-  padding-top: 8px;
-  padding-bottom: 8px;
   padding-left: 16px;
   border-radius: 4px;
   border: 1px solid var(--white);
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
 }
 
 .subscribe-input-email::placeholder {
   color: var(--white);
-  font-size: 12px;
-  line-height: 2;
-  letter-spacing: 0.04em;
 }
 
 .subscribe-button {
   cursor: pointer;
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
-  column-gap: 16px;
+  background: var(--iris);
+  color: var(--white);
+  min-width: 165px;
+  height: 40px;
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   border: none;
   border-radius: 4px;
-  background: var(--iris);
-  min-width: 165px;
-  padding: 8px 24px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.subscribe-button:hover .button-icon-container,
-.subscribe-button:focus .button-icon-container {
-  background-color: var(--ocean);
-  border: 1px solid var(--white);
 }
 
 .subscribe-button:hover,
@@ -655,25 +649,8 @@ img {
   fill: var(--white);
 }
 
-.button-text {
-  text-align: center;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  color: var(--white);
-}
-
-.button-icon-container {
-  width: 24px;
-  height: 24px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: var(--iris);
-}
-
 .button-icon {
+  margin-left: 16px;
   fill: var(--cloud);
 }
 

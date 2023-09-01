@@ -714,23 +714,21 @@
           </ul>
         </div>
         <!-- Subscribe -->
-        <div class="subscribe-form">
-          <div class="subscribe-input">
-            <label class="subscribe-input-label" for="id-user-email">
-              Subscribe</label
-            >
-            <input
-              class="subscribe-input-email"
-              id="id-user-email"
-              name="user-email"
-              placeholder="E-mail"
-              type="text"
-            />
-          </div>
-          <button class="subscribe-button" type="submit">
-            <span class="button-text">Subscribe</span>
-            <span class="button-icon-container">
+        <div class="subscribe">
+          <p class="subscribe-title">Subscribe</p>
+          <form class="subscribe-form">
+            <label class="subscribe-label-email">
+              <input
+                class="subscribe-input-email"
+                name="user-email"
+                placeholder="E-mail"
+                type="email"
+              />
+            </label>
+            <button class="subscribe-button" type="submit">
+              Subscribe
               <svg
+                class="button-icon"
                 class="button-icon"
                 width="24"
                 height="24"
@@ -738,8 +736,8 @@
               >
                 <use href="./images/icons.svg#iconsend"></use>
               </svg>
-            </span>
-          </button>
+            </button>
+          </form>
         </div>
       </div>
     </footer>
