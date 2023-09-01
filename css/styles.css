@@ -888,6 +888,10 @@ img {
   border: none;
 }
 
-.checkbox-real:checked + .checkbox-label > .checkbox-custom > .checkbox-icon {
+/* .checkbox-real:checked + .checkbox-label > .checkbox-custom > .checkbox-icon {
   fill: #f4f4fd;
+} */
+
+.checkbox-real:checked + .checkbox-label .checkbox-custom .checkbox-icon {
+  fill: var(--cloud);
 }
