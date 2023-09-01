@@ -879,7 +879,11 @@ img {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.checkbox-real:checked + .checkbox-custom {
+/* .checkbox-real:checked + .checkbox-custom {
+  background-color: var(--ocean);
+  border: none;
+} */
+.checkbox-real:checked + .checkbox-label > .checkbox-custom{
   background-color: var(--ocean);
   border: none;
 }
