@@ -709,13 +709,13 @@ img {
   margin-left: auto;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   margin-bottom: 24px;
 }
 
 .close-icon {
   fill: var(--navyblue);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .close-button:hover .close-icon,
@@ -838,10 +838,10 @@ img {
   margin-bottom: 24px;
 }
 
-.checkbox-real {
+/* .checkbox-real {
   opacity: 0;
   width: 0;
-}
+} */
 
 .checkbox-label {
   color: var(--lightslate);
@@ -883,11 +883,11 @@ img {
   background-color: var(--ocean);
   border: none;
 } */
-.checkbox-real:checked + .checkbox-label > .checkbox-custom{
+.checkbox-real:checked + .checkbox-label > .checkbox-custom {
   background-color: var(--ocean);
   border: none;
 }
 
 .checkbox-real:checked .checkbox-icon {
-  fill: var(--white);
+  fill: var(--cloud);
 }
